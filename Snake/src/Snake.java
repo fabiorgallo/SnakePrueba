@@ -27,7 +27,7 @@ public class Snake {
 
     // Others values
     private enum GAME_TYPE {NO_MAZE, BORDER, TUNNEL};
-    private int selectedSpeed = SNAKE_RUNNING_SPEED_FASTER;
+    private int selectedSpeed = SNAKE_RUNNING_SPEED_FAST; // Antes era FASTER
     private GAME_TYPE selectedGameType = GAME_TYPE.NO_MAZE;
     private int totalBodyPart;
     private int directionX;
