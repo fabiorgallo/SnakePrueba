@@ -69,7 +69,7 @@ public class Snake {
         board = new JPanel();
         board.setLayout(null);
         board.setBounds(0, 0, BOARD_WIDTH, BOARD_HEIGHT);
-        board.setBackground(Color.WHITE);
+        board.setBackground(Color.YELLOW); // Antes era WHITE
         scorePanel.setLayout(new GridLayout(0, 1));
         scorePanel.setBounds(0, BOARD_HEIGHT, BOARD_WIDTH, SCORE_BOARD_HEIGHT);
         scorePanel.setBackground(Color.RED);
